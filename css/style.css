@@ -1,0 +1,459 @@
+.header, .caption, .search
+{
+	background-color: #f4f4f4;
+	color: #999999;
+	margin: 60px;
+	width: auto;
+}
+body{
+	background-color: #f4f4f4;
+}
+.header{
+	height: 60px;
+	color: #373737;
+	margin-bottom: 20px;
+}
+.footer{
+
+	height: 200px;
+	width: auto;
+	background:  #52658f;
+	clear: both;
+	position: relative;
+	z-index: 40;
+	height: 9em;
+	margin-top: 10em;
+
+}
+.caption{
+	height: 40px;
+	font-size: 210%;
+	font-family: Plantagenet Cherokee;
+	font-style: italic;
+	text-align: center;
+	color: #373737;
+}
+
+.search{
+	position: absolute;
+	top: 200px;
+	left: 140px; 	
+}
+input,button{
+	background-color: transparent;
+}
+.name{
+	float: left;
+	margin: 0;
+	font-weight: bold;
+	font-size: 30px;
+}
+.slogan{
+	float: left;
+	margin-top: 30px;
+	margin-left: -136px;
+	font-size: 23px;
+
+}
+#menu{
+	text-align: right;
+	width: auto;
+	float: right;
+}
+#menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menu li{
+	float: left;
+	margin: 1 0.15em;
+}
+#menu li a{
+	font-size: 1.25em;
+	height: 2em;
+	line-height: 2em;
+	width: 4.5em;
+	display: block;
+	color: #373737;
+	text-decoration: none; 
+	text-align: center;
+}
+.content{
+	margin-top: 150px;
+	margin-left: 200px;
+	margin-right: 60px;
+	max-width: 1000px;
+	position: relative;
+}
+
+.previousButton{
+
+	outline: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: #52658f;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: -140px;
+	margin-left: -40px;
+	vertical-align: top;
+
+}
+.nextButton{
+	outline: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: #52658f;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: -140px;
+	margin-left: 412px;
+	vertical-align: top;
+}
+
+.captionText{
+	color: white;
+	position: absolute;
+	top: 200px;
+	bottom: 200px;
+	left: 20px;
+	font-size: 28px;
+	z-index: 1000;   
+}
+.captionText3{
+	color: white;
+	position: absolute;
+	top: 865px;
+	bottom: 0px;
+	left: 20px;
+	font-size: 28px;
+	z-index: 1000;   
+}
+.fade1::after{
+
+	display: block;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #4f6189 100%);
+	margin-top: -100px;
+	height: 100px;
+	width: 40%;
+	content: '';
+
+
+}
+.fade2::after{
+
+	display: block;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #4f6189 100%);
+	margin-top: -100px;
+	height: 100px;
+	width: 90%;
+	content: '';
+
+}
+.slides1{
+	display: none;
+}
+.indiaText{
+	margin-top: -250px;
+	margin-left: 520px;
+	margin-right: 0px;
+	color: #373737;
+}
+h1{
+	font-family: century schoolbook;
+	font-style: italic;
+	font-size: 35px;
+	margin-bottom: -8px;
+}
+.viewbutton {
+	background-color: none; /* Green */
+	border: 2px solid #52658f;
+	color: #52658f;
+	padding: 8px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #4CAF50;
+}
+
+.viewbutton:hover {
+	background-color: #6381c2;
+	color: white;
+}
+.world{
+	margin-top: 100px;
+	margin-right: 0px;
+	margin-left: 430px;
+
+}
+
+.worldImage{
+	margin-left: 120px;
+	margin-right: 0;
+
+}
+
+.captionText2{
+	color: white;
+	position: absolute;
+	top: 530px;
+	bottom: 0px;
+	left: 560px;
+	right: 0px;
+	font-size: 28px;
+	z-index: 1000;   
+}
+.captionText4{
+	color: white;
+	position: absolute;
+	top: 1240px;
+	bottom: 0px;
+	left: 560px;
+	right: 0px;
+	font-size: 28px;
+	z-index: 1000;   
+}
+
+.worldText{
+	margin-top: -280px;
+	margin-left: -420px;
+	margin-right: -120px;
+	color: #373737;
+}
+.worldParagraph{
+	margin-right: -10px;
+	margin-left: 0px;
+}
+.fade3::after{
+
+	display: block;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #4f6189 100%);
+	margin-top: -100px;
+	height: 100px;
+	width: 40%;
+	content: '';
+
+}
+.fade4::after{
+
+	display: block;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #4f6189 100%);
+	margin-top: -100px;
+	height: 100px;
+	width: 84%;
+	content: '';
+
+}
+.themes{
+	margin-top: 130px;
+}
+.themesText{
+	margin-top: -250px;
+	margin-left: 520px;
+	margin-right: -120px;
+	color: #373737;
+}
+.activities{
+	margin-top: 150px;
+	margin-left: 550px;
+	margin-right: -30px;
+	margin-bottom: 0px;
+}
+.activityText{
+	margin-top: -250px;
+	margin-left: -550px;
+	margin-right: 0px;
+}
+
+.captionText5{
+	color: white;
+	position: absolute;
+	top: 1610px;
+	bottom: 0px;
+	left: 20px;
+	font-size: 28px;
+	z-index: 1000;   
+}
+.experiences{
+	margin-top: 135px;
+}
+.experienceText{
+	margin-top: -250px;
+	margin-left: 520px;
+	margin-right: -120px;
+	color: #373737;
+}
+.fade5::after{
+
+	display: block;
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #4f6189 100%);
+	margin-top: -100px;
+	height: 100px;
+	width: 40%;
+	content: '';
+
+}
+.inpText {
+
+	padding-right: 40px;
+	background-color: white;
+	height: 35px;
+	width: 850px;
+}
+
+.submit{
+
+	margin-left: 30px;
+	height: 25px;
+	width: 90px;
+	background: #52658f;
+	color: white;
+	border: 0;
+	-webkit-appearance: none;
+}
+input.submit:hover{
+	background: black;
+	color: white;
+}
+.startDate{
+	border: none;
+	margin-left: -550px;
+	margin-right: 300px;
+	width: 100px;
+	height: 25px;
+}
+textarea:focus, input:focus{
+	outline: none;
+}
+.endDate{
+	border: none;
+	margin-left: -250px;
+	height: 25px;
+	width: 100px;
+
+}
+.calendar1{
+	position:absolute;
+	bottom:10px;
+	left:440px;
+	width:20px;
+	height:20px;
+}
+.calendar2{
+	position:absolute;
+	bottom:10px;
+	left:590px;
+	width:20px;
+	height:20px;
+}
+.peopleIcon{
+
+	position:absolute;
+	bottom:10px;
+	left:730px;
+	width:20px;
+	height:20px;
+}
+.peopleInput{
+	border: none;
+	margin-left: 50px;
+	width: 100px;
+	height: 25px;
+}
+
+.facebookButton{
+	outline: none;
+	border: none;	
+	font-size: 1.6em;
+	width: 1.6em;
+	text-align: center;
+	line-height: 1.6em;
+	background: #111827;
+	color: #fff;
+	border-radius: 0.8em;
+}
+.facebookButton:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+.twitterButton{
+	outline: none;
+	border: none;
+	font-size: 1.6em;
+	width: 1.6em;
+	text-align: center;
+	line-height: 1.6em;
+	background: #111827;
+	color: #fff;
+	border-radius: 0.8em;
+}
+.twitterButton:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+
+
+.linkedinButton{
+	outline: none;
+	border: none;
+	font-size: 1.6em;
+	width: 1.6em;
+	text-align: center;
+	line-height: 1.6em;
+	background: #111827;
+	color: #fff;
+	border-radius: 0.8em;
+}
+.linkedinButton:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+.gmailButton{
+	outline: none;
+	border: none;
+	font-size: 1.6em;
+	width: 1.6em;
+	text-align: center;
+	line-height: 1.6em;
+	background: #111827;
+	color: #fff;
+	border-radius: 0.8em;
+}
+.gmailButton:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+.buttonClass{
+	margin-top: -120px;
+	margin-right: 0px;
+	margin-left: 1050px;
+	
+}
+.copyrights{
+	color: white;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-left: 980px;	
+}
+.footerText{
+	text-decoration: none;
+	margin-left: 40px;
+	color: white;
+}

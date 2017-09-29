@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pavithram Holidays</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <!-- Name of company-->
+    <div class="container">
+     <div class="name"> Pavithram</div>
+     <div class="slogan">holidays</div>
+     <!-- Menu Buttons-->
+     <div id="Panel">
+       <div id="menu">
+        <ul>
+         <li class="home"><a href="#">home</a></li>
+         <li class="about"><a href="#">about</a></li>
+         <li class="gallery"><a href="#">gallery</a></li>
+         <li class="trips"><a href="#">trips</a></li>
+         <li class="blog"><a href="#">blog</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
+</header>
+<!-- Caption-->
+<div class="caption">
+	<div class="container">
+   "There are innumerable reasons to travel. And this is your place."
+ </div>
+</div>
+<!-- Search Bar-->
+<div class="search">
+	<div class="container">
+   <input type="text" class ="inpText" placeholder=" Search for tours, cities, experiences or activities...  " />
+   <img class="calendar1" src="images\calendarIcon.png">
+   <input class="startDate" id="datepicker" placeholder="Start Date"/>
+   <input class="endDate" id="datepicker1" placeholder="End Date"/>
+   <img class="calendar2" src="images\calendarIcon.png">
+   <input class="peopleInput" placeholder="People"/>
+   <img class="peopleIcon" src="images\people.png">
+   <input class="submit"type="submit"value="Search">
+ </div>
+</div>
+<!-- Main Content-->
+<div class="content">
+  <div class="india">
+    <img class="slides1" src="images\india\india1.jpg" height="250" style="width:40%;" >
+    <div class="captionText">India</div>
+    <img class="slides1" src="images\india\india2Darjeeling.jpg" height="250" style="width:40%">
+    <img class="slides1" src="images\india\india3Kerala.jpg" height="250" style="width:40%">
+    <div class="fade1">
+    </div>
+    <button class="previousButton" onclick="slide(-1,'slides1')">&#10094;</button>
+    <button class="nextButton" onclick="slide(1,'slides1')">&#10095;</button>
+    <div class="indiaText">
+      <h1>Tours In India</h1>
+      <p>
+       Lorem ipsum dolor sit amet, consectetur<br/>
+       adipiscing elit, sed do eiusmod tempor<br/>
+       incididunt ut labore et dolore<br/>
+       magna aliqua.
+     </p>
+     <button class="viewbutton"> View More</button>
+   </div>
+ </div>
+ <!-- WORLD-->
+ <div class="world">
+   <div class="worldImage" >
+     <img class="slides2" src="images\world\world1.jpg" height="250" style="width:90%" >
+     <div class="captionText2">World</div>
+     <img class="slides2" src="images\world\world2.jpg" height="250" style="width:90%" >
+     <img class="slides2" src="images\world\world3.jpg" height="250" style="width:90%" >
+     <div class="fade2">
+     </div>
+     <button class="previousButton" onclick="slide(-1,'slides2')">&#10094;</button>
+     <button class="nextButton" onclick="slide(1,'slides2')">&#10095;</button>
+   </div>
+   <div class="worldText">
+    <h1>Tours Around the world</h1>
+    <p class="worldParagraph">
+     Lorem ipsum dolor sit amet, consectetur<br/>
+     adipiscing elit, sed do eiusmod tempor<br/>
+     incididunt ut labore et dolore<br/>
+     magna aliqua.
+   </p>
+   <button class="viewbutton"> View More</button>
+ </div>
+</div>
+<!-- Themes-->
+<div class="themes">
+  <img class="slides3" src="images\themes\theme1.png" height="250" style="width:40%" >
+  <div class="captionText3">Family</div>
+  <img class="slides3" src="images\themes\theme2.png" height="250" style="width:40%">
+  <img class="slides3" src="images\themes\theme3.png" height="250" style="width:40%">
+  <div class="fade3">
+  </div> 
+  <button class="previousButton" onclick="slide(-1,'slides3')">&#10094;</button>
+  <button class="nextButton" onclick="slide(1,'slides3')">&#10095;</button>
+  <div class="themesText">
+    <h1>Themes</h1>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur<br/>
+     adipiscing elit, sed do eiusmod tempor<br/>
+     incididunt ut labore et dolore<br/>
+     magna aliqua.
+   </p>
+   <button class="viewbutton"> View More</button>
+ </div>
+</div>
+<!-- Activities-->
+<div class="activities">
+	<div class="exploreActivities" >
+   <img class="slides4" src="images\activities\activity1.jpg" height="250" style="width:84%" >
+   <div class="captionText4">Wildlife</div>
+   <img class="slides4" src="images\activities\activity2.jpg" height="250" style="width:84%" >
+   <img class="slides4" src="images\activities\activity3.jpg" height="250" style="width:84%" >
+   <div class="fade4">
+   </div>
+   <button class="previousButton" onclick="slide(-1,'slides4')">&#10094;</button>
+   <button class="nextButton" onclick="slide(1, 'slides4')">&#10095;</button>
+ </div>
+ <div class="activityText">
+  <h1>Explore Activities</h1>
+  <p class="activityParagraph">
+  	Lorem ipsum dolor sit amet, consectetur<br/>
+  	adipiscing elit, sed do eiusmod tempor<br/>
+  	incididunt ut labore et dolore<br/>
+  	magna aliqua.
+  </p>
+  <button class="viewbutton"> View More</button>
+</div>
+</div>
+<!-- Experiences-->
+<div class="experiences">
+  <img class="slides5" src="images\experience\experience1.jpg" height="250" style="width:40%" >
+  <div class="captionText5">Wine Tasting</div>
+  <img class="slides5" src="images\experience\experience2.jpg" height="250" style="width:40%">
+  <img class="slides5" src="images\experience\experience3.jpg"height="250" style="width:40%">
+  <div class="fade5">
+  </div>
+  <button class="previousButton" onclick="slide(-1,'slides5')">&#10094;</button>
+  <button class="nextButton" onclick="slide(1,'slides5')">&#10095;</button>
+  <div class="experienceText">
+    <h1>Experiences</h1>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur<br/>
+     adipiscing elit, sed do eiusmod tempor<br/>
+     incididunt ut labore et dolore<br/>
+     magna aliqua.
+   </p>
+   <button class="viewbutton"> View More</button>
+ </div>
+</div>
+</div>
+<footer class="footer"> 
+  <br/><a href="#" style="text-decoration:none"><p class="footerText">pavithramholidays.com</p></a>
+  <a href="#" style="text-decoration:none"><p class="footerText">About </p></a>
+  <a href="#" style="text-decoration:none"><p class="footerText">Contacts Us</p></a>
+  <div class="buttonClass">
+    <button class="facebookButton" >f</button>
+    <button class="twitterButton" ><img src="images\twitter.png" height="25" width="30"  ></button>
+    <button class="linkedinButton" ><img src="images\linkedin.png" height="25" width="30"  ></button>
+    <button class="gmailButton" ><img src="images\gmail.png" height="25" width="30"  ></button>
+  </div>
+  <p class="copyrights">&copy; COPYRIGHT 2017 ALL RIGHT RESERVED</p>
+</footer>
+</body>
+</html>
